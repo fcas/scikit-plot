@@ -1,0 +1,20 @@
+[project]
+name = "scikit-plot"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "fcas",email = "f3l1nux@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "joblib (>=1.5.3,<2.0.0)",
+    "matplotlib (>=3.11.1,<4.0.0)",
+    "scikit-learn (>=1.9.0,<2.0.0)",
+    "scipy (>=1.18.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
